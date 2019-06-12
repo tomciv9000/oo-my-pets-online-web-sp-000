@@ -68,7 +68,9 @@ class Owner
   end
       
   def list_pets
-    
+    @pets.collect do |, age|
+    age
+end
   end
   
 end
