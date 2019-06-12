@@ -68,7 +68,8 @@ class Owner
   end
       
   def list_pets
-    puts @pets
+    @pets.each do |species, pets|
+       "I have"
   end
   
 end
