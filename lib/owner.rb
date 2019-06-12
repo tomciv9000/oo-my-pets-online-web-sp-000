@@ -61,6 +61,6 @@ class Owner
   end
   
   def sell_pets
-    pets.collect {|
+    pets.collect {|species, mood| sp
   
 end
