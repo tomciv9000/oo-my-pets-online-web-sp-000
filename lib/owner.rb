@@ -52,4 +52,15 @@ class Owner
     pets[:cats].collect {|cat| cat.mood = "happy"}
   end
   
+  def walk_dogs
+    pets[:dogs].collect {|dog| dog.mood = "happy"}
+  end
+  
+  def feed_fish
+    pets[:fish].collect {|fish| fish.mood = "happy"}
+  end
+  
+  def sell_pets
+    pets
+  
 end
