@@ -64,7 +64,7 @@ class Owner
     @pets.each do |species, pets|
       pets.collect {|pet| pet.mood = "nervous"}
     end
-    clear @pets
+    @pets.clear
   end
       
   
