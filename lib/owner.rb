@@ -1,9 +1,13 @@
 class Owner
   
-  attr_accessor :name
+  attr_accessor :name, :pets
   attr_reader :species
   
   @@all = []
+  
+  def initialize
+    @pets = {}
+  end
   
   def self.all
     @@all
@@ -24,9 +28,6 @@ class Owner
   def say_species
     puts self.species
   end
-  
-  def pets 
-    
-  end
+
   
 end
