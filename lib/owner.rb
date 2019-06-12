@@ -49,7 +49,7 @@ class Owner
   end
   
   def plays_with_cats
-    binding.pry
+    self.
   end
   
 end
