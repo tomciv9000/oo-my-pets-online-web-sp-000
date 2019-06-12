@@ -50,5 +50,6 @@ class Owner
   
   def plays_with_cats
     binding.pry
+  end
   
 end
